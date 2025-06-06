@@ -1,0 +1,50 @@
+.wrapper {
+    height: 100% !important;
+}
+.atlas-title{
+    grid-column: 1 /3;
+    grid-row: 1;
+    border-bottom: 0px !important;
+}
+.atlas{
+    grid-column: 1 /3;
+    grid-row: 2;
+    border-bottom: 0px !important;
+}
+
+.carrusel-container{
+    width: 50% !important;
+    margin: 0 auto;
+    border: 1px solid var(--separador);
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-caption {
+    position: unset;;
+}
+
+.carousel-caption{
+    color: var(--s-green) !important;
+}
+
+.carousel-indicators {
+    bottom: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .carrusel-container{
+        width: 100% !important;
+        margin: 0 auto;
+        border: 1px solid var(--separador);
+        padding: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+  }

@@ -1,0 +1,60 @@
+body{
+    background-color: var(--white) !important;
+}
+.wrapper {
+    height: 91vh;
+}
+.wrapper>div{
+    background-color: var(--white) !important;
+}
+.logo{
+    grid-column: 1 /3;
+    grid-row: 1;
+    border-bottom: 0px !important;
+}
+.med{
+    grid-column: 1;
+    grid-row: 2;
+    border-bottom: 0px !important;   
+}
+.sus{
+    grid-column: 2;
+    grid-row: 2;
+    border-bottom: 0px !important;
+}
+.lab{
+    grid-column: 1;
+    grid-row: 3;
+    border-bottom: 0px !important;   
+}
+.cie{
+    grid-column: 2;
+    grid-row: 3;
+    border-bottom: 0px !important;
+}
+.footer-g{
+    grid-column: 1/3;
+    grid-row:4;
+    border-bottom: 0px !important;
+}
+.img-product{
+    width:50%;
+    height: auto;
+}
+.img-product-f{
+    width:300px;
+    height: auto;
+}
+
+.val-results{
+    color: var(--black);
+    text-decoration: underline;
+    text-decoration-color: var(--s-green);
+}
+.separador{
+    background-color: var(--separador) !important;
+}
+.title-section{
+    color: var(--black);
+    font-size: 1rem;
+}

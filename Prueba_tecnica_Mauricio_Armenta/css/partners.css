@@ -1,0 +1,19 @@
+
+.img-partners{
+    width:150px;
+    height: auto;
+}
+.container{
+    max-width: 920px;
+    margin: 0 auto;
+    background-color: var(--white);
+}
+.logo{
+    width: 500px;
+}
+.detalle{
+    text-decoration: underline;
+    text-decoration-color: var(--s-green);
+    text-decoration-thickness:2px ;
+
+}
