@@ -64,14 +64,14 @@
                   </nav>
             </div>
         </div>
-        <div class="nav-back pt-1 pb-1 ps-3"><a class="back" href="index.html"><i class="fas fa-arrow-left fa-1x  me-3 arrow"></i> Atrás</a></div>
+        <div class="nav-back pt-1 pb-1 ps-3"><a class="back" href="index.html"><i class="fas fa-arrow-left fa-1x  me-3 arrow"></i> Atlass</a></div>
     </header>
     <div class="wrapper p-3"> 
         <div class="atlas-title">
                             <div class="col-12 text-end">
                     <h3>Exploremos el latido
                         <br>
-                        cambiemos vidas
+                        <span>cambiemos vidas</span>
                     </h3>
                 </div>
         </div>
@@ -79,7 +79,12 @@
             <div class="row">
                 <div class="col-12 carrusel-container">
                     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>  
+                      <div class="carousel-inner">
                           <div class="carousel-item active" data-bs-interval="10000">
                             <img src="images/miniaturaAtlas.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
@@ -89,13 +94,13 @@
                           <div class="carousel-item" data-bs-interval="2000">
                             <img src="images/miniaturaAtlasI.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                              <h5 class="caption-text">Second slide label</h5>
+                              <h5>Fisiopatología de la hipetensión arteral esencial</h5>
                             </div>
                           </div>
                           <div class="carousel-item">
                             <img src="images/miniaturaAtlas.svg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block ">
-                              <h5>Third slide label</h5>
+                              <h5>Fisiopatología de la hipetensión arteral esencial</h5>
                             </div>
                           </div>
                         </div>
@@ -108,14 +113,10 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                       </div>
-                      <button>Ver más</button>
+                      <button class="btn-general">Ver más</button>
                 </div>
             </div>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+
         </div>       
     </div>
 </body>

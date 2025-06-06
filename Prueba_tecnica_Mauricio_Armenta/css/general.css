@@ -232,3 +232,13 @@ header {
     color: var(--s-green);
     font-style: italic;
   }
+  h3>span{
+    color: var(--white);
+  }
+.btn-general{
+    border-radius: 5px;
+    border:2px solid var(--s-green);
+    background-color: var(--d-green);
+    color: var(--s-green);
+    font-size: 12px;
+}
